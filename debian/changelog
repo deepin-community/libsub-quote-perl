@@ -1,0 +1,52 @@
+libsub-quote-perl (2.006006-1) unstable; urgency=medium
+
+  * Team upload
+  * Import upstream version 2.006006
+  * Explicitly declare dependencies provided by perl or perl-base
+  * Declare compliance with policy 4.4.1
+  * Declare that debian/rules does not need (fake)root
+
+ -- intrigeri <intrigeri@debian.org>  Sun, 13 Oct 2019 04:45:37 +0000
+
+libsub-quote-perl (2.006003-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 2.006003
+  * Update upstream copyright years.
+  * Bump debhelper compatibility version to 12.
+  * Declare compatibility with Debian Policy 4.4.0.
+
+ -- intrigeri <intrigeri@debian.org>  Fri, 19 Jul 2019 03:18:25 +0000
+
+libsub-quote-perl (2.005001-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * Import upstream version 2.005001.
+  * Declare compliance with Debian Policy 4.1.4.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 17 May 2018 19:35:01 +0200
+
+libsub-quote-perl (2.005000-1) unstable; urgency=medium
+
+  * Import upstream version 2.005000.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 4.1.3.
+  * Bump debhelper compatibility level to 10.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 19 Feb 2018 20:33:28 +0100
+
+libsub-quote-perl (2.004000-1) unstable; urgency=medium
+
+  * Import upstream version 2.004000.
+  * Update years of packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 17 Jun 2017 22:11:28 +0200
+
+libsub-quote-perl (2.003001-1) unstable; urgency=medium
+
+  * Initial release (closes: #849410).
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 26 Dec 2016 19:17:03 +0100

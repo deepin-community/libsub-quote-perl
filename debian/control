@@ -1,0 +1,31 @@
+Source: libsub-quote-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libscalar-list-utils-perl,
+                     libtest-fatal-perl,
+                     libtest-simple-perl,
+                     perl
+Standards-Version: 4.4.1
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libsub-quote-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libsub-quote-perl.git
+Homepage: https://metacpan.org/release/Sub-Quote
+Rules-Requires-Root: no
+
+Package: libsub-quote-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libscalar-list-utils-perl
+Breaks: libmoo-perl (<< 2.003000)
+Replaces: libmoo-perl (<< 2.003000)
+Description: helper modules for subroutines
+ This package includes two modules:
+ .
+ Sub::Quote provides performant ways to generate subroutines from strings.
+ .
+ Sub::Defer contains subroutines which provide the user with a convenient way
+ to defer creation of subroutines and methods until they are first called.
